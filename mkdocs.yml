@@ -1,0 +1,45 @@
+site_name: Louisiana Environmental Datasets
+
+nav:
+  - Home: index.md
+  - About: about.md
+
+  - Datasets:
+      - Overview: datasets/index.md
+      - Administrative Boundaries: datasets/administrative.md
+      - Environmental Regulatory: datasets/regulatory.md
+      - Hydrology: datasets/hydrology.md
+      - Topography: datasets/topography.md
+      - Infrastructure: datasets/infrastructure.md
+      - Base Layers: datasets/base_layers.md
+
+  - Working With Data:
+      - Overview: working/index.md
+      - Shapefiles (.shp): working/shapefiles.md
+      - Feature Services (ArcGIS REST): working/feature_services.md
+      - Map Services (MapServer): working/map_services.md
+      - WMS / WFS: working/wms_wfs.md
+      - CSV (Lat/Lon): working/csv.md
+      - GeoJSON & GeoPackage: working/geojson_gpkg.md
+      - Raster Data (DEM, LiDAR): working/raster.md
+
+  - GIS SOPs:
+      - CRS & Projections: sops/crs.md
+      - IDW & Interpolation: sops/idw.md
+      - Contour Generation: sops/contours.md
+      - Isopleth Mapping: sops/isopleths.md
+      - Groundwater Mapping: sops/groundwater.md
+      - Data QA/QC: sops/qaqc.md
+
+  - Regulatory GIS:
+      - LDEQ Resources: regulatory/ldeq.md
+      - LDNR Resources: regulatory/ldnr.md
+      - EPA Region 6: regulatory/epa_region6.md
+      - FEMA Flood Data: regulatory/fema.md
+
+  - Tools & Automation:
+      - QGIS Plugins: tools/qgis_plugins.md
+      - Python Scripts: tools/python.md
+      - PyQGIS Snippets: tools/pyqgis.md
+
+  - FAQ: faq.md
