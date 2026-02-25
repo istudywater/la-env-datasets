@@ -43,3 +43,17 @@ nav:
       - PyQGIS Snippets: tools/pyqgis.md
 
   - FAQ: faq.md
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    scheme: default
+    primary: indigo
+    accent: blue
