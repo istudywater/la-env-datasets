@@ -48,12 +48,13 @@ theme:
   name: material
   features:
     - navigation.sections
-    - navigation.expand
     - navigation.instant
     - navigation.top
     - search.highlight
     - content.code.copy
+    
   palette:
-    scheme: default
-    primary: indigo
-    accent: blue
+    scheme: slate
+    toggle:
+      icon: material/brightness-7
+      tooltip: Switch to light mode
